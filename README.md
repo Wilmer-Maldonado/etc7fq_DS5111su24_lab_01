@@ -56,3 +56,7 @@ August 1st, 2024 - Snowflake
 August 8th, 2024 - Snowflake/DBT Part 2
 
 - For week 11, took me sometime to figure out how to load the seed files and enter the inputs just right for dbt to login to snowflake. Once that was figured out it was easy to run dbt seed with the utf-8 encoded csv files. I had an error when I loaded a csv that was not utf-8 so that was a good learning lesson. Also learned that dbt init creates another folder in repo with all dbt connection configuration. 
+
+August 9th, 2024 - Snowflake/DBT COntinued and AWS Logging
+
+- For the final week, week 12 tried logging into AWS and running repo. Created the instance fine with the class account, but had trouble installing homebrew. I tried installing with only sudo commands python and everything worked fine. I was able to clone repo, make the environment and import my package from git successfully
