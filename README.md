@@ -52,3 +52,7 @@ July 30th, 2024 - Database Design
 August 1st, 2024 - Snowflake
 
 - For week 10, I got to play around with snowflake. I've used databricks SQL query dashboard UI before and it was extremely similar to Snowflake. It was also interesting to learn how dbt interacts with snowflake and other backends. Snowflake is super common in job postings so I am glad we got cover its functionality.
+
+August 8th, 2024 - Snowflake/DBT Part 2
+
+- For week 11, took me sometime to figure out how to load the seed files and enter the inputs just right for dbt to login to snowflake. Once that was figured out it was easy to run dbt seed with the utf-8 encoded csv files. I had an error when I loaded a csv that was not utf-8 so that was a good learning lesson. Also learned that dbt init creates another folder in repo with all dbt connection configuration. 
