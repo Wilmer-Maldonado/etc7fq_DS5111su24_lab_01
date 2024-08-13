@@ -3,7 +3,7 @@ Data Engineering UVA Grad Course
 
 #### Status Badge
 
-[![Python package](https://github.com/Wilmer-Maldonado/etc7fq_journal_DS5111su24/actions/workflows/validations.yml/badge.svg?branch=WEEK-05%2Fgithub_automation)](https://github.com/Wilmer-Maldonado/etc7fq_journal_DS5111su24/actions/workflows/validations.yml)
+[![Python package](https://github.com/Wilmer-Maldonado/etc7fq_journal_DS5111su24/actions/workflows/validations.yml/badge.svg)](https://github.com/Wilmer-Maldonado/etc7fq_journal_DS5111su24/actions/workflows/validations.yml)
 
 ### Tokenizer Functions Documentation 
 
@@ -82,3 +82,19 @@ July 15th, 2024 - Decorators, Comprehensions, Dicts and some OOP
 July 20th, 2024 - Design Patterns
 
 - For week 8, learned about Design patterns, specifically how Singleton, Factory, and Template designs work as examples. Never studied Design patterns specifically, but this aligns how I think about code. I always try to map the features to a diagram and design pattern of my own before I start coding a codebase or start making PRs. 
+
+July 30th, 2024 - Database Design
+
+- For week 9, I haven't gotten too far in the readings yet and working on the other labs. From what I have read database design is a structured format to be able to create read update delete information form a table in a consistent stable atomic way. 
+
+August 1st, 2024 - Snowflake
+
+- For week 10, I got to play around with snowflake. I've used databricks SQL query dashboard UI before and it was extremely similar to Snowflake. It was also interesting to learn how dbt interacts with snowflake and other backends. Snowflake is super common in job postings so I am glad we got cover its functionality.
+
+August 8th, 2024 - Snowflake/DBT Part 2
+
+- For week 11, took me sometime to figure out how to load the seed files and enter the inputs just right for dbt to login to snowflake. Once that was figured out it was easy to run dbt seed with the utf-8 encoded csv files. I had an error when I loaded a csv that was not utf-8 so that was a good learning lesson. Also learned that dbt init creates another folder in repo with all dbt connection configuration. 
+
+August 9th, 2024 - Snowflake/DBT COntinued and AWS Logging
+
+- For the final week, week 12 tried logging into AWS and running repo. Created the instance fine with the class account, but had trouble installing homebrew. I tried installing with only sudo commands python and everything worked fine. I was able to clone repo, make the environment and import my package from git successfully

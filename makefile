@@ -42,10 +42,17 @@ total_words:
 tokenizer:
 	python tokenizer.py
 
+.PHONY: lint
+lint:
+	. env/bin/activate && pylint src/pkg_etc7fq/tokenizer.py
+
 .PHONY: tests
-tests:
+tests: lint
 	. env/bin/activate && pytest -m "not integration" tests/
 
 .PHONY: integration_tests
 integration_tests:
 	. env/bin/activate && pytest -m "integration" tests/
+
+pkg_import_test:
+	. env/bin/activate && python -c "import pkg_etc7fq as pkg; print(pkg.tokenize('To be or not to be'))"
