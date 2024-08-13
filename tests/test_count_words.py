@@ -307,9 +307,9 @@ def test_python_version_3_8_12():
         major == 3 and minor == 12
     ), f"Use a Python version 3.8.x or 3.12.x, not {sys.version_info}"
 
-
 @pytest.mark.integration
-@pytest.mark.xfail(strict=False)
+@pytest.mark.xfail
+
 def test_integration_count_words_err():
     # Given: sample text
     sample_text = """But the Raven, sitting lonely on the placid bust, spoke only That one word, as if his soul in that one word he did outpour."""
